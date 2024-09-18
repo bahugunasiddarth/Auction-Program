@@ -40,7 +40,8 @@ def find_highest_bidder(bidder_record):
 while not budding_finishing :
     name= input("what is your name? ")
     price= int(input("What is you bid price $? "))
-    #create dictionary
+  
+  #create dictionary
     bids[name]=price
     should_continue= input("Are there is any other bidders? 'yes' or 'no'.")
     if should_continue == "no":
